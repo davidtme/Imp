@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <NoWarn>FS0046;FS3560</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Properties\launchSettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="../Imp/Json.fs" />
+    <Compile Include="../Imp/CommonModels.fs" />
+    <Compile Include="../Imp/SpriteHelpers.Models.fs" />
+    <Compile Include="Common.fs" />
+    <Compile Include="Aseprite.fs" />
+    <Compile Include="Images.fs" />
+    <Compile Include="TexturePacker.fs" />
+    <Compile Include="Shaders.fs" />
+    <Compile Include="Resources.fs" />
+    <Compile Include="Pipeline.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="9.0.201" />
+    <PackageReference Include="Legivel" Version="0.4.6" />
+    <PackageReference Include="Argu" Version="6.2.5" />
+    <PackageReference Include="Thoth.Json.Net" Version="12.0.0" />
+    <PackageReference Include="System.Drawing.Common" Version="9.0.2" />
+  </ItemGroup>
+
+</Project>

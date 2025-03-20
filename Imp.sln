@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Alchemists.Client.Common", "src\Alchemists.Client.Common\Alchemists.Client.Common.fsproj", "{08B16946-BEE9-483F-85AD-6824CE697542}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Alchemists.Tools", "src\Alchemists.Tools\Alchemists.Tools.fsproj", "{3EB86729-3EB6-48C4-AE49-A0140CB95856}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Imp", "src\Imp\Imp.fsproj", "{55126640-2F00-44C2-A26C-C4C3B23219F0}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Imp.Tools", "src\Imp.Tools\Imp.Tools.fsproj", "{B0191332-8872-45F0-B06F-E19C3E57E644}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Alchemists.Client.Web", "src\Alchemists.Client.Web\Alchemists.Client.Web.fsproj", "{4E8D1468-46BB-4EB1-86A8-DA4EFA4AED4F}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Alchemists.Client.Desktop", "src\Alchemists.Client.Desktop\Alchemists.Client.Desktop.fsproj", "{A886A2B7-8EF6-4886-AEE8-4F8623F9FF9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Fable|Any CPU = Fable|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08B16946-BEE9-483F-85AD-6824CE697542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B16946-BEE9-483F-85AD-6824CE697542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B16946-BEE9-483F-85AD-6824CE697542}.Fable|Any CPU.ActiveCfg = Fable|Any CPU
+		{08B16946-BEE9-483F-85AD-6824CE697542}.Fable|Any CPU.Build.0 = Fable|Any CPU
+		{08B16946-BEE9-483F-85AD-6824CE697542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B16946-BEE9-483F-85AD-6824CE697542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EB86729-3EB6-48C4-AE49-A0140CB95856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB86729-3EB6-48C4-AE49-A0140CB95856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB86729-3EB6-48C4-AE49-A0140CB95856}.Fable|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB86729-3EB6-48C4-AE49-A0140CB95856}.Fable|Any CPU.Build.0 = Debug|Any CPU
+		{3EB86729-3EB6-48C4-AE49-A0140CB95856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB86729-3EB6-48C4-AE49-A0140CB95856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55126640-2F00-44C2-A26C-C4C3B23219F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55126640-2F00-44C2-A26C-C4C3B23219F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55126640-2F00-44C2-A26C-C4C3B23219F0}.Fable|Any CPU.ActiveCfg = Fable|Any CPU
+		{55126640-2F00-44C2-A26C-C4C3B23219F0}.Fable|Any CPU.Build.0 = Fable|Any CPU
+		{55126640-2F00-44C2-A26C-C4C3B23219F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55126640-2F00-44C2-A26C-C4C3B23219F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0191332-8872-45F0-B06F-E19C3E57E644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0191332-8872-45F0-B06F-E19C3E57E644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0191332-8872-45F0-B06F-E19C3E57E644}.Fable|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0191332-8872-45F0-B06F-E19C3E57E644}.Fable|Any CPU.Build.0 = Debug|Any CPU
+		{B0191332-8872-45F0-B06F-E19C3E57E644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0191332-8872-45F0-B06F-E19C3E57E644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E8D1468-46BB-4EB1-86A8-DA4EFA4AED4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E8D1468-46BB-4EB1-86A8-DA4EFA4AED4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E8D1468-46BB-4EB1-86A8-DA4EFA4AED4F}.Fable|Any CPU.ActiveCfg = Fable|Any CPU
+		{4E8D1468-46BB-4EB1-86A8-DA4EFA4AED4F}.Fable|Any CPU.Build.0 = Fable|Any CPU
+		{4E8D1468-46BB-4EB1-86A8-DA4EFA4AED4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E8D1468-46BB-4EB1-86A8-DA4EFA4AED4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A886A2B7-8EF6-4886-AEE8-4F8623F9FF9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A886A2B7-8EF6-4886-AEE8-4F8623F9FF9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A886A2B7-8EF6-4886-AEE8-4F8623F9FF9B}.Fable|Any CPU.ActiveCfg = Debug|Any CPU
+		{A886A2B7-8EF6-4886-AEE8-4F8623F9FF9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A886A2B7-8EF6-4886-AEE8-4F8623F9FF9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4986458E-575F-415C-B4A3-1D1B42513A15}
+	EndGlobalSection
+EndGlobal

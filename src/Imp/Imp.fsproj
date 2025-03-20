@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Configurations>Debug;Release;Fable</Configurations>
+    <WarningsAsErrors>FS0025</WarningsAsErrors>
+    <NoWarn>FS0046</NoWarn>
+
+    <FablePackageType>library</FablePackageType>
+    <PackageTags>fable-javascript</PackageTags>
+    <Version>0.0.1-alpha</Version>
+
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Fable|AnyCPU'">
+    <DefineConstants>$(DefineConstants);FABLE_COMPILER</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Json.fs" />
+    <Compile Include="Common.fs" />
+    <Compile Include="GL.Models.fs" />
+    <Compile Include="GL.OpenGLHelpers.fs" />
+    <Compile Include="GL.WebGLHelpers.fs" />
+    <Compile Include="GL.CommonGLHelpers.fs" />
+    <Compile Include="CommonModels.fs" />
+    <Compile Include="DisplayModels.fs" />
+    <Compile Include="Dsl.fs" />
+    <Compile Include="Flow.fs" />
+    <None Include="Shaders\Batch.vert" />
+    <None Include="Shaders\Single.vert" />
+    <None Include="Shaders\Single.frag" />
+    <None Include="Shaders\Shaders.yaml" />
+    <Compile Include="Setup.fs" />
+    <Compile Include="Shaders.fs" />
+    <Compile Include="SceneRenderer.fs" />
+    <Compile Include="SingleRenderer.fs" />
+    <Compile Include="BatchRenderer.fs" />
+    <Compile Include="Elmish.fs" />
+    <Compile Include="SpriteHelpers.Models.fs" />
+    <Compile Include="SpriteHelpers.Logic.fs" />
+    <Compile Include="Movement.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fable.Browser.WebGL" Version="1.3.0" />
+    <PackageReference Include="Fable.Browser.Dom" Version="2.18.1" />
+    <PackageReference Include="Fable.Package.SDK" Version="1.3.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Fable.Promise" Version="3.2.0" />
+    <PackageReference Include="Fable.Core" Version="4.4.0" />
+    <PackageReference Include="Fable.Fetch" Version="2.7.0" />
+    <PackageReference Include="Silk.NET.OpenGL" Version="2.22.0" />
+    <PackageReference Include="Silk.NET.Windowing" Version="2.22.0" />
+    <PackageReference Include="Silk.NET.Input" Version="2.22.0" />
+    <PackageReference Include="StbImageSharp" Version="2.30.15" />
+    <PackageReference Include="System.Text.Json" Version="9.0.2" />
+    <PackageReference Include="Thoth.Json" Version="10.4.1" />
+    <PackageReference Include="Thoth.Json.Net" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="9.0.201" />
+  </ItemGroup>
+
+  <Target Name="CodeGen" BeforeTargets="BeforeBuild" Condition=" '$(DesignTimeBuild)' != 'true' ">
+    <Exec Command="cd &quot;$(MSBuildThisFileDirectory)..\Imp.Tools&quot; &amp;&amp; dotnet run --no-launch-profile --mode Shaders --input &quot;$(MSBuildThisFileDirectory)\Shaders\Shaders.yaml&quot; --output &quot;$(MSBuildThisFileDirectory)\Shaders.fs&quot; --module-name Imp.Shaders" />
+  </Target>
+
+</Project>
