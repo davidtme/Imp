@@ -435,3 +435,4 @@ yarn-error.*
 /Build
 /src/Client.Common/Data.resx
 /src/Client.Web/public/data
+/src/Imp/Shaders.fs
