@@ -5,7 +5,7 @@ open Client.Common
 
 let dataManager =
     WebDataManager(
-        baseUrl = "Data")
+        baseUrl = "data")
 
 let display  = 
     WebGLDisplay(
