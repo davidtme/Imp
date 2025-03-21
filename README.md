@@ -7,9 +7,7 @@ Check out the demo at https://davidtme.github.io/imp
 ``` F#
 let sampleView () =
     view () {
-        sceneRenderer (
-            backgroundColor = { R = 30; G = 30; B = 30 }) {
-
+        sceneRenderer (backgroundColor = { R = 30; G = 30; B = 30 }) {
             singleRenderer () {
                 sprite (
                     x = 50,
