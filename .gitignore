@@ -434,3 +434,4 @@ yarn-error.*
 /Temp
 /Build
 /src/Client.Common/Data.resx
+/src/Client.Web/public/data

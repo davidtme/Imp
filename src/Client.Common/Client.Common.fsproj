@@ -17,7 +17,6 @@
     <Compile Include="Components\FrameRate.fs" />
     <Compile Include="Components\DemoWindow.fs" />
     <Compile Include="Components\DemoMouse.fs" />
-    <Compile Include="Components\DemoPlayers.fs" />
     <Compile Include="Components\SmallWorld.fs" />
     <Compile Include="Views.fs" />
   </ItemGroup>
