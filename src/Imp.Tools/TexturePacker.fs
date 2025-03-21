@@ -4,7 +4,12 @@ open System
 open System.IO
 open Imp.Tools.Common
 
-let mutable texturePackerPath = @"C:\dev\Game2023\Tools\runnable-texturepacker.jar"
+let texturePackerPath =
+    let p = System.Environment.GetEnvironmentVariable("TEXTUREPACKER_PATH")
+    if String.IsNullOrWhiteSpace(p) then
+        @"C:\dev\Imp\Tools\runnable-texturepacker.jar"
+    else
+        p
 
 module Data = 
     //type Bounds =

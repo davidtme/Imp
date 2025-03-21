@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Configurations>Debug;Release;Fable</Configurations>
+    <WarningsAsErrors>FS0025</WarningsAsErrors>
+    <NoWarn>FS0046</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Fable|AnyCPU'">
+    <DefineConstants>$(DefineConstants);FABLE_COMPILER</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="dist\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="public\**\*.*" />
+    <None Include="index.html" />
+    <None Include="package.json" />
+    <None Include="vite.config.js" />
+    <None Include="build.cmd" />
+    <None Include="watch.cmd" />
+    <Compile Include="App.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="9.0.201" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Client.Common\Client.Common.fsproj" />
+  </ItemGroup>
+
+</Project>

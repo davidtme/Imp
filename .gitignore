@@ -431,9 +431,6 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-/src/Client/Client.fable-temp.csproj
-/src/Client/.idea
-/src/Test
-/src/Alchemists.Client.Common/Data
-/src/Alchemists.Client.Common/Data.resx
 /Temp
+/Build
+/src/Client.Common/Data.resx

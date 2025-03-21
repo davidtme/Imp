@@ -21,6 +21,9 @@ let spriteCliPipeline<'a> argv pipeline meta =
     let fileOutput = results.GetResult(File_Output) |> rootPath
     let resxOutput = results.GetResult(Resx_Output) |> rootPath
 
+    if fileOutput.EndsWith(".aseprite") |> not then
+        clearDirectory temp
+
     let toPack = temp </> "ToPack"
 
     do 

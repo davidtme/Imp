@@ -4,7 +4,12 @@ open System.IO
 open Imp.Tools.Common
 open System
 
-let mutable asepritePath = @"C:\dev\Game2023\Tools\Aseprite-v1.3.5-x64\Aseprite.exe"
+let asepritePath =
+    let p = System.Environment.GetEnvironmentVariable("ASEPRITE_PATH")
+    if String.IsNullOrWhiteSpace(p) then
+        @"C:\Program Files\Aseprite\Aseprite.exe"
+    else
+        p
 
 module Data =
     type Bounds =

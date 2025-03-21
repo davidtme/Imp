@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Shaders": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode Shaders --input \"C:\\dev\\Alchemists\\src\\Imp\\Shaders\\Shaders.yaml\" --output \"C:\\dev\\Alchemists\\src\\Imp\\Shaders.fs\" --module-name Imp.Shaders"
+    }
+  }
+}

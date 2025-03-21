@@ -57,7 +57,12 @@ type UI<'a>() =
     let sprites = System.Collections.Generic.Dictionary<string,SpriteInfo<'a>>()
 
     member _.Sprites = sprites
-    member _.SpriteDetails name = sprites.[name]
+    member _.SpriteDetails name = 
+        match sprites.TryGetValue(name) with
+        | true, s -> s
+        | _ ->
+            invalidOp $"Can't find name %s{name}"
+    
     member _.DefaultFont with get () = defaultFont and set value = defaultFont <- value
 
 

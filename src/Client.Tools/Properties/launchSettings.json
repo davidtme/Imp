@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Sprites - All": {
+      "commandName": "Project",
+      "commandLineArgs": "Sprites --input \"..\\..\\Resources\\Sprites\" --file-output \"..\\Client.Web\\public\\data\" --resx-output \"..\\Client.Common\\Data.resx\" --temp \"..\\..\\Temp\"",
+      "workingDirectory": "$(MSBuildThisFileDirectory)"
+    }
+  }
+}

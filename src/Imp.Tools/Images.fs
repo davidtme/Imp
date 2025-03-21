@@ -80,6 +80,9 @@ let trim file jsonFile =
     File.WriteAllBytes(file, croppedBytes)
     File.WriteAllText(jsonFile, data |> Json.serialize)
 
+let nothing file jsonFile =
+    ignore()
+
 let iterSprites search fn =
     let files = Directory.EnumerateFiles(search, "*.png", SearchOption.TopDirectoryOnly)
 
