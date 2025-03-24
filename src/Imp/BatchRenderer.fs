@@ -20,9 +20,6 @@ type private BatchRenderer(gl, view) =
     override this.OnInit (props : RenderProperties) = 
         this.Clean ()
 
-        let minDepth, maxDepth = props.ZRange
-        let r = maxDepth |> float32
-
         let posArray = arrayPool.Borrow()
         let depthArray = arrayPool.Borrow()
         let texturePosArray = arrayPool.Borrow()
@@ -47,9 +44,7 @@ type private BatchRenderer(gl, view) =
             | _ -> ()
 
         let inline appendSpriteDepth oz (sprite : ElementSprite) (arr : ResizeArray<_>) =
-            let d = float32 ((sprite.Z + oz) - minDepth) / r
-            arr.Add(1.0f - float32 d)
-
+            arr.Add(float32(sprite.Z + oz))
 
         view.Sprites <| fun struct(ox,oy,oz) sprite ->
           if sprite.MetaData.IsNone then
@@ -90,12 +85,15 @@ type private BatchRenderer(gl, view) =
             Shaders.Batch.reuse gl <| fun shader ->
                 shader.SetVertex(props.VertexBuffer)
 
-        let z = 
-            let minDepth, maxDepth = props.ZRange
-            let r = maxDepth |> float32
-            float32 ((props.Offset.Z) - minDepth) / r
+        //let z = 
+        //    let minDepth, maxDepth = props.ZRange
+        //    let r = maxDepth |> float32
+        //    float32 ((props.Offset.Z) - minDepth) / r
 
-        shader.SetOffset(props.Offset.X |> float32, props.Offset.Y |> float32, 1.0f - z)
+        shader.SetOffset(float32 props.Offset.X, float32 props.Offset.Y, float32 props.Offset.Z)
+        let minDepth, maxDepth = props.ZRange
+        shader.SetDepthRange(float32 minDepth , float32 maxDepth)
+        
         shader.SetOutputResolution(float32 props.Resolution.Width, float32 props.Resolution.Height) 
         shader.SetTextureResolution(float32 props.TextureDetails.Width, float32 props.TextureDetails.Height)
         shader.SetDiffuseTexture(props.TextureDetails.Texture)

@@ -7,6 +7,7 @@ in vec4 position;
 in vec4 texturePosition;
 in float textureLayer;
 in float depth;
+uniform vec2 depthRange;
 
 uniform vec2 outputResolution;
 uniform vec2 textureResolution;
@@ -26,5 +27,10 @@ void main(void)
     float y = mix(1.0, -1.0, (offset.y + position.y + (position.w * (1.0 - vertex.y))) / outputResolution.y);
 
     gl_Position = vec4(x, y, 0.0, 1.0);
-    frag_depth = offset.z + depth;
+
+    float minDepth = depthRange.x;
+    float maxDepth = depthRange.y;
+    float d = ((offset.z + depth) - minDepth) / (maxDepth - minDepth);
+
+    frag_depth = 1.0f - d;
 }

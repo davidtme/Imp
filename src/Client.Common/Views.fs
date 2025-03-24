@@ -16,20 +16,39 @@ let private rootView () =
                     FrameRate.render "FrameRate"
                     DemoWindow.render "DemoWindow"
                     DemoMouse.render "DemoMouse"
-                    DemoWindow.textInput "DemoMouse"
+                    DemoWindow.testText "DemoMouse"
                 }
-
-                //batchRenderer () {
-                //    DemoPlayers.render "Players"
-                //}
 
                 SmallWorld.render "SmallWorld"
             }
         }
     }
+    
 
 let private onReader() = 
     Components.FrameRate.frameCounter <- Components.FrameRate.frameCounter + 1
+
+let sampleView () =
+    view () {
+        sceneRenderer (
+            backgroundColor = { R = 30; G = 30; B = 30 }) {
+
+            singleRenderer () {
+                sprite (
+                    x = 50,
+                    y = 50,
+                    z = 0,
+                    width = 32,
+                    height = 32,
+                    texture = "mega",
+                    textureX = 563,
+                    textureY = 791,
+                    textureWidth = 32,
+                    textureHeight = 32
+                )
+            }
+        }
+    }
 
 let init (dataManager : DataManager) (display : Display) =
     dataManager.PopulateSprites "sprites.json" ui.Sprites <| fun _ ->
@@ -41,7 +60,7 @@ let init (dataManager : DataManager) (display : Display) =
 
     display.AttachView
         dataManager
-        (rootView())
+        (rootView ())
         (Some onReader)
 
     display.Run()

@@ -30,7 +30,7 @@ type private SingleRenderer(gl, view) =
         shader.SetTextureResolution(float32 props.TextureDetails.Width, float32 props.TextureDetails.Height)
         shader.SetDiffuseTexture(props.TextureDetails.Texture)
 
-        view.Sprites(fun struct(ox, oy, od) sprite ->
+        view.Sprites(fun struct(ox, oy, oz) sprite ->
             match props.TextureLayer sprite.Texture with
             | ValueSome layer ->
                 shader.SetTextureLayer(float32 layer)
@@ -48,8 +48,7 @@ type private SingleRenderer(gl, view) =
                     float32 sprite.TextureHeight)
 
                 let minDepth, maxDepth = props.ZRange
-                let r = maxDepth |> float32
-                let d = float32 ((props.Offset.Z + sprite.Z + od) - minDepth) / r
+                let d = float32 ((props.Offset.Z + sprite.Z + oz) - minDepth) / (float32 (maxDepth - minDepth))
 
                 shader.SetDepth(1.0f - d)
             
