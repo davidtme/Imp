@@ -9,6 +9,10 @@
     <FablePackageType>library</FablePackageType>
     <PackageTags>fable-javascript</PackageTags>
     <Version>0.0.2-alpha</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/davidtme/Imp</RepositoryUrl>
+
+    <PackageReadmeFile>README.md</PackageReadmeFile>
 
   </PropertyGroup>
 
@@ -17,6 +21,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
     <Compile Include="Json.fs" />
     <Compile Include="Common.fs" />
     <Compile Include="GL.Models.fs" />
