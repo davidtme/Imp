@@ -1,12 +1,25 @@
-# Imp
+﻿# Imp  
 
-Check out the demo at https://davidtme.github.io/imp
+**Imp** is a lightweight, sprite-based rendering framework for **F#**, supporting both **OpenGL** (desktop) and **WebGL** (web). Inspired by **Elmish** and **React Native**, it provides a declarative way to build high-performance 2D applications with a functional architecture.  
 
-## Sample code:
+🔹 **Why "Imp"?** The name comes from an *Imp*, a small mischievous creature—just like sprites in a game! **Imp** is designed to be a fast and lightweight sprite renderer for building graphical applications.  
 
-From https://github.com/davidtme/Imp/tree/main/src/Client.SimpleWeb
+🚀 **Try the demo**: [davidtme.github.io/imp](https://davidtme.github.io/imp)  
 
-``` F#
+## Features  
+- 🎮 **Sprite-Based Rendering** – Optimized for rendering 2D sprites efficiently.  
+- 🏗 **Elmish-Like Architecture** – Write declarative UI code, similar to React Native in F#.  
+- 🖥 **Cross-Platform Support** – OpenGL for desktop apps and WebGL for browser-based applications.  
+- 🎨 **Declarative Scene Composition** – Manage scenes and sprites with a structured, functional approach.  
+- 🚀 **GPU-Accelerated Performance** – Leverages OpenGL/WebGL for smooth, high-performance rendering.  
+- 📦 **Web-Based & Local Asset Management** – Load and manage textures, sprites, and other resources effortlessly.  
+- 💡 **F#-First Development** – Functional, type-safe, and expressive API.  
+
+
+## Example Usage  
+With **Imp**, you can quickly set up a WebGL scene:  
+
+```fsharp
 module Client.SimpleWeb.App
 
 // Import required modules for application setup and rendering
@@ -52,4 +65,10 @@ let display = WebGLDisplay(elementId = "App", width = 800, height = 600) // Spec
 display.AttachView dataManager (sampleView ()) None
 // Start the rendering loop for the display
 display.Run()
+
 ```
+
+
+## Getting Started
+
+Clone the repository and explore the [sample applications](https://github.com/davidtme/Imp/tree/main/src/Client.SimpleWeb) to see Imp in action!
