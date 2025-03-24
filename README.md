@@ -2,7 +2,7 @@
 
 **Imp** is a lightweight, sprite-based rendering framework for **F#**, supporting both **OpenGL** (desktop) and **WebGL** (web). Inspired by **Elmish** and **React Native**, it provides a declarative way to build high-performance 2D applications with a functional architecture.  
 
-🔹 **Why "Imp"?** The name comes from an *Imp*, a small mischievous creature—just like sprites in a game! **Imp** is designed to be a fast and lightweight sprite renderer for building graphical applications.  
+🔹 **Why "Imp"?** The name comes from an *Imp*, a small mischievous creature—just similar to a sprite! **Imp** is designed to be a fast and lightweight sprite renderer for building graphical applications.  
 
 🚀 **Try the demo**: [davidtme.github.io/imp](https://davidtme.github.io/imp)  
 
@@ -14,7 +14,7 @@
 - 🚀 **GPU-Accelerated Performance** – Leverages OpenGL/WebGL for smooth, high-performance rendering.  
 - 📦 **Web-Based & Local Asset Management** – Load and manage textures, sprites, and other resources effortlessly.  
 - 💡 **F#-First Development** – Functional, type-safe, and expressive API.  
-
+- 🌐 **Fable Integration** – Uses [Fable](https://fable.io/) to compile F# to JavaScript for seamless web development.  
 
 ## Example Usage  
 With **Imp**, you can quickly set up a WebGL scene:  
