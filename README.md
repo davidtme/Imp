@@ -74,8 +74,9 @@ display.AttachView dataManager (sampleView ()) None
 // Start the rendering loop for the display
 display.Run()
 
-```
+```  
 
+For an example of Elmish-style architecture, check out the [`SmallWorld.fs`](https://github.com/davidtme/Imp/blob/main/src/Client.Common/Components/SmallWorld.fs) file in the repository.
 
 ## Getting Started
 
