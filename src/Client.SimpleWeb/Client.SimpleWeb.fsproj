@@ -22,9 +22,6 @@
 
   <ItemGroup>
     <PackageReference Include="Imp" Version="0.0.2-alpha" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Update="FSharp.Core" Version="9.0.201" />
   </ItemGroup>
 

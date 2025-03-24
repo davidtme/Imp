@@ -2,7 +2,7 @@
 
 **Imp** is a lightweight, sprite-based rendering framework for **F#**, supporting both **OpenGL** (desktop) and **WebGL** (web). Inspired by **Elmish** and **React Native**, it provides a declarative way to build high-performance 2D applications with a functional architecture.  
 
-🔹 **Why "Imp"?** The name comes from an *Imp*, a small mischievous creature—just similar to a sprite! **Imp** is designed to be a fast and lightweight sprite renderer for building graphical applications.  
+🔹 Why **Imp?** The name comes from an *Imp*, a small mischievous creature—just similar to a sprite! **Imp** is designed to be a fast and lightweight sprite renderer for building graphical applications.  
 
 🚀 **Try the demo**: [davidtme.github.io/imp](https://davidtme.github.io/imp)  
 
@@ -15,6 +15,14 @@
 - 📦 **Web-Based & Local Asset Management** – Load and manage textures, sprites, and other resources effortlessly.  
 - 💡 **F#-First Development** – Functional, type-safe, and expressive API.  
 - 🌐 **Fable Integration** – Uses [Fable](https://fable.io/) to compile F# to JavaScript for seamless web development.  
+
+## Installation  
+
+You can install **Imp** via [NuGet](https://www.nuget.org/packages/Imp/):  
+
+```bash
+dotnet add package Imp
+```
 
 ## Example Usage  
 With **Imp**, you can quickly set up a WebGL scene:  
@@ -72,3 +80,21 @@ display.Run()
 ## Getting Started
 
 Clone the repository and explore the [sample applications](https://github.com/davidtme/Imp/tree/main/src/Client.SimpleWeb) to see Imp in action!
+
+## Contributing  
+
+Contributions are welcome! If you'd like to contribute to **Imp**, please follow these steps:  
+1. Fork the repository.  
+2. Create a new branch for your feature or bugfix.  
+3. Commit your changes and push them to your fork.  
+4. Submit a pull request with a detailed description of your changes.  
+
+For more details, see the [Contributing Guidelines](CONTRIBUTING.md).  
+
+## License  
+
+This project is licensed under the [MIT License](LICENSE).  
+
+## Support  
+
+If you encounter any issues or have questions, feel free to open an issue on the [GitHub repository](https://github.com/davidtme/Imp/issues).
