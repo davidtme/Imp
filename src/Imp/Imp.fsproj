@@ -8,7 +8,7 @@
 
     <FablePackageType>library</FablePackageType>
     <PackageTags>fable-javascript</PackageTags>
-    <Version>0.0.1-alpha</Version>
+    <Version>0.0.2-alpha</Version>
 
   </PropertyGroup>
 

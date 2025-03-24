@@ -9,6 +9,8 @@ type DataManager() =
     let textureNames = System.Collections.Generic.HashSet<string>()
 
     member _.TextureNames = textureNames
+    member _.AddTextureName name = textureNames.Add(name) |> ignore
+
     abstract member LoadTexture<'a>: string -> (TextureInfo -> unit) -> unit
     abstract member LoadString<'a>: string -> (string -> unit) -> unit
 

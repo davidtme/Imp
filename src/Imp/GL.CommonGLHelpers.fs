@@ -84,21 +84,6 @@ let createTexture (info : TextureInfo) (gl : GL) =
 
 #nowarn "9"
 
-//let createDepthTexture (width : uint32, height : uint32) (gl : GL) =
-//    let texture = gl.GenTexture();
-//    gl.ActiveTexture(TextureUnit.Texture0)
-//    gl.BindTexture(TextureTarget.Texture2D, texture)
-
-//    gl.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureWrapS, int TextureWrapMode.ClampToEdge)
-//    gl.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureWrapT, int TextureWrapMode.ClampToEdge)
-//    gl.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMinFilter, int TextureMinFilter.Nearest)
-//    gl.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMagFilter, int TextureMagFilter.Nearest)
-
-//    let voidPtr = 0n.ToPointer()
-
-//    gl.TexImage2D(TextureTarget.Texture2D, 0, InternalFormat.DepthComponent24, width, height, 0, PixelFormat.DepthComponent, PixelType.UnsignedByte, voidPtr)
-//    texture
-
 let createTargetTexture (width : uint32, height : uint32) (internalFormat : InternalFormat) (pixelFormat : PixelFormat) (pixelType : PixelType) (gl : GL) =
     let texture = gl.GenTexture();
     gl.ActiveTexture(TextureUnit.Texture0)
@@ -112,30 +97,6 @@ let createTargetTexture (width : uint32, height : uint32) (internalFormat : Inte
     gl.TexImage2D(TextureTarget.Texture2D, 0, internalFormat, width, height, 0, pixelFormat, pixelType, emptyPointer)
     texture
 
-//#if !FABLE_COMPILER
-//let loadTexture (manager : System.Resources.ResourceManager) name = 
-//    async {
-//        let path = System.IO.Path.Combine(System.Environment.CurrentDirectory, "Data", "Sprites", name + ".png")
-//        let raw : byte[] = 
-//            if System.IO.File.Exists(path) then
-//                System.IO.File.ReadAllBytes(path)
-//            else
-//                manager.GetObject(name + ".png") |> unbox
-
-
-//        let result = StbImageSharp.ImageResult.FromMemory(raw, StbImageSharp.ColorComponents.RedGreenBlueAlpha)
-//        return { Pixels = result.Data; Width = uint result.Width; Height = uint result.Height }
-//    }
-//#else
-//let loadTexture name : Async<TextureInfo> =
-//    Fable.Core.JS.Constructors.Promise.Create (fun resolve _ ->
-//        let image = Browser.Dom.document.createElement("img") :?> Browser.Types.HTMLImageElement
-//        image.onload <- fun _ ->
-//            resolve { Pixels = image; Width = uint image.width; Height = uint image.height }
-
-//        image.src <- $"sprites/{name}.png"
-//    ) |> Async.AwaitPromise
-//#endif
 
 let createLayeredTexture data (gl : GL) =
     let rec loop items i = 
