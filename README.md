@@ -1,6 +1,6 @@
 ﻿# Imp  
 
-**Imp** is a lightweight, sprite-based rendering framework for **F#**, supporting both **OpenGL** (desktop) and **WebGL** (web). Inspired by **Elmish** and **React Native**, it provides a declarative way to build high-performance 2D applications with a functional architecture.  
+**Imp** is a lightweight, sprite-based rendering framework for **F#**, supporting both **OpenGL** (desktop/android) and **WebGL** (web). Inspired by **Elmish** and **React Native**, it provides a declarative way to build high-performance 2D applications with a functional architecture.  
 
 🔹 Why **Imp?** The name comes from an *Imp*, a small mischievous creature, similar to a sprite! **Imp** is designed to be a fast and lightweight sprite renderer for building graphical applications.  
 
@@ -9,7 +9,7 @@
 ## Features  
 - 🎮 **Sprite-Based Rendering** – Optimized for rendering 2D sprites efficiently.  
 - 🏗 **Elmish-Like Architecture** – Write declarative UI code, similar to React Native in F#.  
-- 🖥 **Cross-Platform Support** – OpenGL for desktop apps and WebGL for browser-based applications.  
+- 🖥 **Cross-Platform Support** – OpenGL for desktop/android apps and WebGL for browser-based applications.  
 - 🎨 **Declarative Scene Composition** – Manage scenes and sprites with a structured, functional approach.  
 - 🚀 **GPU-Accelerated Performance** – Leverages OpenGL/WebGL for smooth, high-performance rendering.  
 - 📦 **Web-Based & Local Asset Management** – Load and manage textures, sprites, and other resources effortlessly.  
@@ -89,8 +89,6 @@ Contributions are welcome! If you'd like to contribute to **Imp**, please follow
 2. Create a new branch for your feature or bugfix.  
 3. Commit your changes and push them to your fork.  
 4. Submit a pull request with a detailed description of your changes.  
-
-For more details, see the [Contributing Guidelines](CONTRIBUTING.md).  
 
 ## License  
 

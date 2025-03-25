@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0-android35.0</TargetFramework>
+    <SupportedOSPlatformVersion>35.0</SupportedOSPlatformVersion>
+    <TargetPlatformVersion>35.0</TargetPlatformVersion>
+    <OutputType>Exe</OutputType>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="MainActivity.fs" />
+    <None Include="AndroidManifest.xml" />
+    <None Include="Resources\*.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Client.Common\Client.Common.fsproj" />
+    <PackageReference Update="FSharp.Core" Version="9.0.201" />
+  </ItemGroup>
+</Project>

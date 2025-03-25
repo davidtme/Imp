@@ -1,0 +1,2245 @@
+[
+    {
+        "name": "Earth",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 563,
+                            "y": 791,
+                            "width": 32,
+                            "height": 32
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Wall",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 563,
+                            "y": 791,
+                            "width": 32,
+                            "height": 32
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    },
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 75,
+                            "y": 675,
+                            "width": 28,
+                            "height": 38
+                        },
+                        "offset": {
+                            "x": 2,
+                            "y": -10
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-0",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 104,
+                            "y": 702,
+                            "width": 7,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-1",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 112,
+                            "y": 699,
+                            "width": 6,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-2",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 112,
+                            "y": 711,
+                            "width": 7,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-3",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 42,
+                            "y": 402,
+                            "width": 7,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-4",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 85,
+                            "y": 663,
+                            "width": 7,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-5",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 606,
+                            "y": 788,
+                            "width": 7,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-6",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 618,
+                            "y": 800,
+                            "width": 7,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-7",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 630,
+                            "y": 812,
+                            "width": 7,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-8",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 5,
+                            "width": 7,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-9",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 40,
+                            "y": 390,
+                            "width": 7,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-Apostrophe",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 69,
+                            "y": 647,
+                            "width": 2,
+                            "height": 4
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-At",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 53,
+                            "width": 14,
+                            "height": 15
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-A",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 49,
+                            "y": 438,
+                            "width": 11,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-B",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 609,
+                            "y": 812,
+                            "width": 10,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-Caret",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 69,
+                            "y": 652,
+                            "width": 5,
+                            "height": 15
+                        },
+                        "offset": {
+                            "x": -1,
+                            "y": -2
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-Close Parenthesis",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 63,
+                            "y": 549,
+                            "width": 4,
+                            "height": 14
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-Comma",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 125,
+                            "y": 741,
+                            "width": 2,
+                            "height": 5
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 9
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-C",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 75,
+                            "y": 663,
+                            "width": 9,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-Double Quote",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 137,
+                            "y": 767,
+                            "width": 6,
+                            "height": 4
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-D",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 31,
+                            "y": 414,
+                            "width": 11,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-E",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 43,
+                            "y": 414,
+                            "width": 9,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-Full Stop",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 574,
+                            "y": 776,
+                            "width": 2,
+                            "height": 2
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 9
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-F",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 17,
+                            "width": 8,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-G",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 112,
+                            "y": 723,
+                            "width": 10,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-H",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 596,
+                            "y": 812,
+                            "width": 12,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-I",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 93,
+                            "y": 663,
+                            "width": 6,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-J",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 586,
+                            "y": 779,
+                            "width": 9,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-K",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 112,
+                            "y": 735,
+                            "width": 12,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-L",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 596,
+                            "y": 788,
+                            "width": 9,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-Minus",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 563,
+                            "y": 774,
+                            "width": 4,
+                            "height": 1
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 7
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-M",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 32,
+                            "y": 438,
+                            "width": 16,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-N",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 41,
+                            "width": 12,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-Open Parenthesis",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 131,
+                            "y": 751,
+                            "width": 4,
+                            "height": 14
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-O",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 29,
+                            "width": 10,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-P",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 608,
+                            "y": 800,
+                            "width": 9,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-Question Mark",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 614,
+                            "y": 788,
+                            "width": 6,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-Q",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 563,
+                            "y": 776,
+                            "width": 10,
+                            "height": 14
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-R",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 16,
+                            "y": 57,
+                            "width": 12,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-S",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 104,
+                            "y": 690,
+                            "width": 7,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-T",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 31,
+                            "y": 390,
+                            "width": 8,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-U",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 47,
+                            "y": 426,
+                            "width": 11,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-V",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 574,
+                            "y": 779,
+                            "width": 11,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-W",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 31,
+                            "y": 426,
+                            "width": 15,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-X",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 596,
+                            "y": 800,
+                            "width": 11,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-Y",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 31,
+                            "y": 402,
+                            "width": 10,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Font Small-Z",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 620,
+                            "y": 812,
+                            "width": 9,
+                            "height": 11
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Player-East-Idle",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 772,
+                            "width": 36,
+                            "height": 51
+                        },
+                        "offset": {
+                            "x": -6,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Player-East-Walk",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 174,
+                            "y": 773,
+                            "width": 36,
+                            "height": 50
+                        },
+                        "offset": {
+                            "x": -6,
+                            "y": -20
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 211,
+                            "y": 773,
+                            "width": 36,
+                            "height": 50
+                        },
+                        "offset": {
+                            "x": -6,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 248,
+                            "y": 773,
+                            "width": 36,
+                            "height": 50
+                        },
+                        "offset": {
+                            "x": -6,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 720,
+                            "width": 36,
+                            "height": 51
+                        },
+                        "offset": {
+                            "x": -6,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 285,
+                            "y": 773,
+                            "width": 36,
+                            "height": 50
+                        },
+                        "offset": {
+                            "x": -6,
+                            "y": -20
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 38,
+                            "y": 772,
+                            "width": 36,
+                            "height": 51
+                        },
+                        "offset": {
+                            "x": -6,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 668,
+                            "width": 36,
+                            "height": 51
+                        },
+                        "offset": {
+                            "x": -6,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 38,
+                            "y": 720,
+                            "width": 36,
+                            "height": 51
+                        },
+                        "offset": {
+                            "x": -6,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Player-North-Idle",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 470,
+                            "y": 773,
+                            "width": 30,
+                            "height": 50
+                        },
+                        "offset": {
+                            "x": 1,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Player-North-Walk",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 501,
+                            "y": 773,
+                            "width": 30,
+                            "height": 50
+                        },
+                        "offset": {
+                            "x": 1,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 329,
+                            "width": 30,
+                            "height": 51
+                        },
+                        "offset": {
+                            "x": 1,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 121,
+                            "width": 29,
+                            "height": 51
+                        },
+                        "offset": {
+                            "x": 1,
+                            "y": -20
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 277,
+                            "width": 30,
+                            "height": 51
+                        },
+                        "offset": {
+                            "x": 1,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 532,
+                            "y": 773,
+                            "width": 30,
+                            "height": 50
+                        },
+                        "offset": {
+                            "x": 1,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 225,
+                            "width": 30,
+                            "height": 51
+                        },
+                        "offset": {
+                            "x": 1,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 69,
+                            "width": 29,
+                            "height": 51
+                        },
+                        "offset": {
+                            "x": 2,
+                            "y": -20
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 173,
+                            "width": 30,
+                            "height": 51
+                        },
+                        "offset": {
+                            "x": 1,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Player-South-Idle",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 495,
+                            "width": 30,
+                            "height": 56
+                        },
+                        "offset": {
+                            "x": 1,
+                            "y": -26
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Player-South-Walk",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 32,
+                            "y": 507,
+                            "width": 30,
+                            "height": 56
+                        },
+                        "offset": {
+                            "x": 1,
+                            "y": -26
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 75,
+                            "y": 766,
+                            "width": 30,
+                            "height": 57
+                        },
+                        "offset": {
+                            "x": 1,
+                            "y": -26
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 32,
+                            "y": 450,
+                            "width": 29,
+                            "height": 56
+                        },
+                        "offset": {
+                            "x": 2,
+                            "y": -25
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 610,
+                            "width": 30,
+                            "height": 57
+                        },
+                        "offset": {
+                            "x": 1,
+                            "y": -26
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 438,
+                            "width": 30,
+                            "height": 56
+                        },
+                        "offset": {
+                            "x": 1,
+                            "y": -26
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 106,
+                            "y": 766,
+                            "width": 30,
+                            "height": 57
+                        },
+                        "offset": {
+                            "x": 1,
+                            "y": -26
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 381,
+                            "width": 29,
+                            "height": 56
+                        },
+                        "offset": {
+                            "x": 1,
+                            "y": -25
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 552,
+                            "width": 30,
+                            "height": 57
+                        },
+                        "offset": {
+                            "x": 1,
+                            "y": -26
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Player-West-Idle",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 38,
+                            "y": 668,
+                            "width": 36,
+                            "height": 51
+                        },
+                        "offset": {
+                            "x": 2,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Player-West-Walk",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 322,
+                            "y": 773,
+                            "width": 36,
+                            "height": 50
+                        },
+                        "offset": {
+                            "x": 2,
+                            "y": -20
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 359,
+                            "y": 773,
+                            "width": 36,
+                            "height": 50
+                        },
+                        "offset": {
+                            "x": 2,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 396,
+                            "y": 773,
+                            "width": 36,
+                            "height": 50
+                        },
+                        "offset": {
+                            "x": 2,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 75,
+                            "y": 714,
+                            "width": 36,
+                            "height": 51
+                        },
+                        "offset": {
+                            "x": 2,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 433,
+                            "y": 773,
+                            "width": 36,
+                            "height": 50
+                        },
+                        "offset": {
+                            "x": 2,
+                            "y": -20
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 32,
+                            "y": 616,
+                            "width": 36,
+                            "height": 51
+                        },
+                        "offset": {
+                            "x": 2,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 137,
+                            "y": 772,
+                            "width": 36,
+                            "height": 51
+                        },
+                        "offset": {
+                            "x": 2,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            },
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 32,
+                            "y": 564,
+                            "width": 36,
+                            "height": 51
+                        },
+                        "offset": {
+                            "x": 2,
+                            "y": -21
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Button-BottomLeft",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 120,
+                            "y": 720,
+                            "width": 2,
+                            "height": 2
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Button-BottomRight",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 50,
+                            "y": 411,
+                            "width": 2,
+                            "height": 2
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Button-Bottom",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 63,
+                            "y": 546,
+                            "width": 2,
+                            "height": 2
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Button-Left",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 131,
+                            "y": 748,
+                            "width": 2,
+                            "height": 2
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Button-Middle",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 104,
+                            "y": 687,
+                            "width": 2,
+                            "height": 2
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Button-Right",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 112,
+                            "y": 696,
+                            "width": 2,
+                            "height": 2
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Button-TopLeft",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 100,
+                            "y": 672,
+                            "width": 2,
+                            "height": 2
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Button-TopRight",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 621,
+                            "y": 797,
+                            "width": 2,
+                            "height": 2
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Button-Top",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 144,
+                            "y": 769,
+                            "width": 2,
+                            "height": 2
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Window Title",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 112,
+                            "y": 747,
+                            "width": 18,
+                            "height": 18
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Window-BottomLeft",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 16,
+                            "y": 53,
+                            "width": 3,
+                            "height": 3
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Window-BottomRight",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 14,
+                            "y": 49,
+                            "width": 3,
+                            "height": 3
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Window-Bottom",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 75,
+                            "y": 659,
+                            "width": 3,
+                            "height": 3
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Window-Left",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 53,
+                            "y": 422,
+                            "width": 3,
+                            "height": 3
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Window-Middle",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 596,
+                            "y": 784,
+                            "width": 3,
+                            "height": 3
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Window-Right",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 31,
+                            "y": 386,
+                            "width": 3,
+                            "height": 3
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Window-TopLeft",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 626,
+                            "y": 808,
+                            "width": 3,
+                            "height": 3
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Window-TopRight",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 638,
+                            "y": 820,
+                            "width": 3,
+                            "height": 3
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Window-Top",
+        "frames": [
+            {
+                "layers": [
+                    {
+                        "texture": "mega",
+                        "rect": {
+                            "x": 1,
+                            "y": 1,
+                            "width": 3,
+                            "height": 3
+                        },
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "metaData": ""
+                    }
+                ]
+            }
+        ]
+    }
+]

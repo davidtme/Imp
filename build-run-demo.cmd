@@ -1,7 +1,3 @@
 dotnet tool restore
-cd src
-cd Client.Tools
-dotnet run
-cd ..
-cd Client.Desktop
+cd src\Client.Desktop
 dotnet run

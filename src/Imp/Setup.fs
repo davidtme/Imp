@@ -251,6 +251,33 @@ type OpenGLDisplay(width, height, tickRate, title) =
     override _.Run() =
         window.Run()
 
+type AndroidOpenGLDisplay(tickRate) =
+    inherit Display()
+
+    let window = 
+        let mutable options = ViewOptions.Default
+
+        options.API <- GraphicsAPI(ContextAPI.OpenGLES, ContextProfile.Compatability, ContextFlags.Default, new APIVersion(3, 0))
+        let view = Silk.NET.Windowing.Window.GetView(options)
+
+        view.UpdatesPerSecond <- tickRate
+        view
+
+    override _.AttachInput(fn) =
+        ()
+
+    override _.AttachView(dataManager: DataManager) (view) (onReader) =
+        window.add_Load(fun _ -> 
+            let gl = GL.GetApi(window)
+            attachView gl dataManager view onReader <| fun render update ->
+            window.add_Render(fun _ -> render { Width = window.Size.X; Height = window.Size.Y })
+            window.add_Update(update)
+        )
+
+    override _.Run() =
+        window.Run()
+        window.Dispose()
+
 #endif
 
 open Fable.Core.JsInterop
