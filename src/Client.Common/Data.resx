@@ -59,6 +59,6 @@
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
       </resheader>
       <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-      <data name="mega.png" type="System.Resources.ResXFileRef, System.Windows.Forms"><value>C:\dev\Imp\src\Client.Web\public\data\mega.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
-<data name="sprites.json" type="System.Resources.ResXFileRef, System.Windows.Forms"><value>C:\dev\Imp\src\Client.Web\public\data\sprites.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+      <data name="mega.png" type="System.Resources.ResXFileRef, System.Windows.Forms"><value>..\Client.Web\public\data\mega.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+<data name="sprites.json" type="System.Resources.ResXFileRef, System.Windows.Forms"><value>..\Client.Web\public\data\sprites.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
     </root>
