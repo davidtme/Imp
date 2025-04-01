@@ -73,5 +73,7 @@ let save outputPath items =
       {String.concat Environment.NewLine res}
     </root>"""
 
+    let doc = System.Xml.Linq.XDocument.Parse(resOutput)
+    let resOutput = doc.ToString()
     
     File.WriteAllText(outputPath, resOutput)

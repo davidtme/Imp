@@ -399,7 +399,8 @@ type Key =
 
 [<RequireQualifiedAccess>]
 type ControllerButton = 
-    //| A
+    | A
+    | B
     | DPadUp
     | DPadDown
     | DPadLeft

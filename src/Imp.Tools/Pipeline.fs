@@ -108,10 +108,12 @@ let spriteCliPipeline<'a> argv pipeline meta =
     sprites |> saveJson (fileOutput </> "sprites.json")
 
     do
+        let resxOutputPath = System.IO.Path.GetDirectoryName resxOutput
+
         let files = 
             Directory.EnumerateFiles(fileOutput)
             |> Seq.map(fun path ->
-                Path.GetFileName(path), path
+                Path.GetFileName(path), absolutePathToRelative path resxOutputPath
             )
 
         files |> Imp.Tools.Resources.save resxOutput

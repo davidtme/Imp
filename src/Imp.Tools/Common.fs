@@ -5,6 +5,12 @@ open System.IO
 
 let (</>) a b = sprintf "%s" (Uri(Path.Combine(a, b)).LocalPath.Trim('/', '\\'))
 
+let absolutePathToRelative (absolute : string) (root : string) = 
+    let absoluteUri = Uri(absolute)
+    let rootUri = Uri(root + "\\")
+    let result = rootUri.MakeRelativeUri(absoluteUri).ToString().Replace("/", "\\")
+    result
+
 let saveIfChanged (filename : string) text =
     let changed =
         if IO.File.Exists(filename) |> not then

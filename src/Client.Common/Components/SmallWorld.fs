@@ -177,6 +177,8 @@ let private update (message : Message) (model : Model) =
             | ControllerButton.DPadLeft -> model.Controller.Buttons.Left <- pressed
             | ControllerButton.DPadDown -> model.Controller.Buttons.Down <- pressed
             | ControllerButton.DPadRight -> model.Controller.Buttons.Right <- pressed
+            | ControllerButton.A
+            | ControllerButton.B -> ()
 
         model,
         Cmd.none

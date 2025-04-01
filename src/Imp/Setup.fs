@@ -170,6 +170,8 @@ type OpenGLDisplay(width, height, tickRate, title) =
         | ButtonName.DPadDown -> ValueSome ControllerButton.DPadDown
         | ButtonName.DPadLeft -> ValueSome ControllerButton.DPadLeft
         | ButtonName.DPadRight -> ValueSome ControllerButton.DPadRight
+        | ButtonName.A -> ValueSome ControllerButton.A
+        | ButtonName.B -> ValueSome ControllerButton.B
         | _ -> ValueNone
 
     override _.AttachInput(fn) =
